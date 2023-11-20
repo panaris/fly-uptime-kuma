@@ -1,5 +1,7 @@
+swap_size_mb = 256
+
 [build]
-  image = "louislam/uptime-kuma:1"
+  image = "louislam/uptime-kuma:beta"
 
 [[mounts]]
   source = "kuma_data"
