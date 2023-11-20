@@ -1,17 +1,5 @@
-# fly-uptime-kuma
+flyctl launch
 
-To host uptime kuma on Fly.io clone this repo, enter the folder and run:
+flyctl volumes create kuma
 
-```
-fly launch \
-  --copy-config \
-  --auto-confirm \
-  --ha=false \
-  --now
-```
-
-You will be asked an app name and organization. A 1GB volume will be created on deploy.
-
-## Feedback?
-
-https://community.fly.io/t/hosting-uptime-kuma-on-fly-io/14352
+flyctl deploy
